@@ -9,11 +9,12 @@ import java.io.File
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
+
     var overlappingImageView: OverlappingImageView? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        overlappingImageView = findViewById<View>(R.id.oiv) as OverlappingImageView
+        overlappingImageView = findViewById<View>(R.id.overlappingImageView) as OverlappingImageView
         overlappingImageView!!.setThumbnailUrl(dummyUrls, false)
     }
 

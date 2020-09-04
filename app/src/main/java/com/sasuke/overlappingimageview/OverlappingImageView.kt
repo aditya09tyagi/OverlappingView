@@ -36,7 +36,7 @@ class OverlappingImageView(context: Context, attrs: AttributeSet?) : HorizontalS
         mLinearLayout!!.layoutParams = LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT)
         mLinearLayout!!.orientation = LinearLayout.HORIZONTAL
         addView(mLinearLayout)
-        mImageLoader = ImageLoader(mItemWidth, mItemHeight, mItemBorderWidth, mMaxItemCount, mOffset, mBorderColor, getContext(), mLinearLayout)
+        mImageLoader = ImageLoader(mItemWidth, mItemHeight, mItemBorderWidth, mMaxItemCount, mOffset, mBorderColor, getContext(), mLinearLayout!!)
     }
 
     fun setThumbnailUrl(imageUrlList: ArrayList<String?>?, removeItemOnSwipe: Boolean) {

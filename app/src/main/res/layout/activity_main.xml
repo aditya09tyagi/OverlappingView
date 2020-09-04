@@ -8,7 +8,7 @@
     tools:context="com.sasuke.overlappingimageview.MainActivity">
 
     <com.sasuke.overlappingimageview.OverlappingImageView
-        android:id="@+id/oiv"
+        android:id="@+id/overlappingImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"

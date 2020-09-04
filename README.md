@@ -40,19 +40,21 @@ You can set it's weight between 0 to 1. <br />
 
 You can use any of the following functions to load the image: <br />
 
-1. To load the images from url use:
-   <h5>setThumbnailUrl(ArrayList<String> imageUrlList, boolean removeItemOnSwipe)</h5>       <i>//If you want to enable item remove functionality on swipe :: set removeItemOnSwipe = true <i><br />
+<h4>1. To load the images from url use:</h4>
+   <h5><i>setThumbnailUrl(ArrayList<String> imageUrlList, boolean removeItemOnSwipe)</i></h5>       
+        <i>//If you want to enable item remove functionality on swipe :: set removeItemOnSwipe = true </i> </br>
+        
 
-<b>NOTE</b> -> ( THIS LIBRARY USE PICASSO INTERNALLY TO LOAD IMAGES SO DON'T FORGET TO ADD THE DEPENDENCY -> implementation 'com.squareup.picasso:picasso:2.71828' ) <br />
+<b>NOTE</b> -> ( THIS LIBRARY USE PICASSO INTERNALLY TO LOAD IMAGES SO DON'T FORGET TO ADD THE DEPENDENCY -> implementation 'com.squareup.picasso:picasso:2.71828' ) 
 
-2. To load the images from drawable use:
-   <h5>setThumbnailDrawableRes(ArrayList<Integer> imageDrawableResList, boolean removeItemOnSwipe)</h5> <br />
+<h4>2. To load the images from drawable use:</h4>
+   <h5><i>setThumbnailDrawableRes(ArrayList<Integer> imageDrawableResList, boolean removeItemOnSwipe)</i></h5>
 
-3. To laod the images from file use:
-   <h5>setThumbnailFile(ArrayList<File> imageFileList, boolean removeItemOnSwipe) </h5><br />
+<h4>3. To laod the images from file use:</h4>
+   <h5><i>setThumbnailFile(ArrayList<File> imageFileList, boolean removeItemOnSwipe)</i></h5>
 
-NOTE -> ( DON'T FORGET TO ADD READ_INTERNAL_STORAGE PERMISSION) <br />
+NOTE -> ( DON'T FORGET TO ADD READ_INTERNAL_STORAGE PERMISSION)
 
-4. To load the images from Uri use:
-   <h5>setThumbnailUri(ArrayList<Uri> imageUriList, boolean removeItemOnSwipe) </h5><br />
+<h4>4. To load the images from Uri use:</h4>
+   <h5><i>setThumbnailUri(ArrayList<Uri> imageUriList, boolean removeItemOnSwipe) </i></h5><br />
 ENJOY :)
